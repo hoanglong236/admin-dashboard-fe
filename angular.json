@@ -30,9 +30,13 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.scss"
+              "src/styles.scss",
+              "src/assets/styles/bootstrap/dist/css/bootstrap.min.css",
+              "src/assets/styles/bootstrap/scss/override-bootstrap.scss"
             ],
-            "scripts": []
+            "scripts": [
+              "src/assets/styles/bootstrap/dist/js/bootstrap.bundle.min.js"
+            ]
           },
           "configurations": {
             "production": {
